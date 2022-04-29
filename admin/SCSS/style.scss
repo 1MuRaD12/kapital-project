@@ -1,0 +1,169 @@
+* {
+    a {
+        text-decoration: none;
+    }
+}
+
+.container {
+    .row {
+        .col-lg-2 {
+            width: 220px;
+        }
+
+        .col-lg-10 {
+            ul {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+                .fa-solid {
+                    color: red;
+                }
+
+                a {
+                    color: black;
+                }
+
+                li {
+                    font-size: small;
+                }
+
+                .li1 {
+                    width: 145px;
+
+                }
+
+                .li2 {
+                    width: 90px;
+
+                }
+
+                .li3 {
+                    width: 120px;
+                }
+
+                .li4 {
+                    width: 30px;
+                }
+
+                .li5 {
+                    width: 30px;
+                }
+
+                .li6 {
+                    font-size: 15px;
+                    text-align: center;
+                    width: 100px;
+                    border: 1px solid red;
+                    border-radius: 5px;
+                    width: 25px;
+                }
+            }
+        }
+
+        .col-lg-2 {
+            .img {
+                height: 60px;               
+                img {
+                    border-radius: 15px;
+                    width: 140px;
+                    height: 50px;
+                }
+            }
+        }
+
+        .col-lg-12 {
+            button {
+                background-color: rgb(238, 238, 245);
+                border-radius: 10px;
+                width: 80px;               
+            }
+        }
+        .col-lg-4{
+            img{
+                width: 40%;
+            }
+        }
+    }
+
+    .row1 {
+        border: 3px solid rgb(238, 238, 245);
+        border-radius: 15px;
+
+        .col-lg-5 {
+
+            img {
+                margin: 20%;
+                display: flex;
+                justify-content: end;
+                margin-bottom: 20%;
+                width: 55%;
+            }
+        }
+
+        .col-lg-7 {
+
+            margin: 6% 0;
+
+            .in {
+                h4 {
+                    color: red;
+                }
+
+                h2 {
+                    a {
+                        color: black;
+                    }
+                }
+            }
+
+            .in1 {
+                .p {
+                    width: 150px;
+                }
+
+                .p1 {
+                    width: 20%;
+                }
+
+                .p2 {
+                    width: 140%;
+                }
+            }
+
+            .in2 {
+                display: flex;
+
+                button {
+                    width: 35%;
+                    height: 50px;
+                    border-radius: 10px;
+                    color: white;
+                    background-color: rgb(182, 65, 65);
+                }
+
+                p {
+                    margin: 2% 10%;
+
+                    a {
+                        color: black;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .col-lg-12 {
+        text-align: start;
+
+        p {
+            width: 60%;
+        }
+    }
+
+}
+
+nav {
+    background-color: rgb(238, 238, 245);
+}
+
